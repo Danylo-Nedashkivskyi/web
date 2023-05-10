@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-color:rgb(195, 199, 255);">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="calculator.html">Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="vh-100">
+        <div class="h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card align-items-center border border-dark rounded">
+                        <div class="card-body">
+                            <p class="text-center h1 fw-bold">Calculator</p>
+                            <div class="container-fluid border rounded p-0">
+                                <div class="row flex-fill no-gutters">
+                                    <div class="col-12 border rounded">
+                                        <input type="text" value="" style="width:100%;" disabled />
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-info" style="height:100%;width:100%;" style="width:100%;" value="+">+</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-info" style="height:100%;width:100%;" value="-">-</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-info" style="height:100%;width:100%;" value="*">&times;</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-info" style="height:100%;width:100%;" value="/">&divide;</button>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="7" class="btn btn-light waves-effect" style="height:100%;width:100%;">7</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="8" class="btn btn-light waves-effect" style="height:100%;width:100%;">8</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="9" class="btn btn-light waves-effect" style="height:100%;width:100%;">9</button>
+                                    </div>
+                                    <div class="col-3">
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="4" class="btn btn-light waves-effect" style="height:100%;width:100%;">4</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="5" class="btn btn-light waves-effect" style="height:100%;width:100%;">5</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="6" class="btn btn-light waves-effect" style="height:100%;width:100%;">6</button>
+                                    </div>
+                                    <div class="col-xs-3">
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="1" class="btn btn-light waves-effect" style="height:100%;width:100%;">1</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="2" class="btn btn-light waves-effect" style="height:100%;width:100%;">2</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="3" class="btn btn-light waves-effect" style="height:100%;width:100%;">3</button>
+                                    </div>
+                                    <div class="col-3">
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 border rounded">
+                                        <button type="button" value="0" class="btn btn-light waves-effect" style="height:100%;width:100%;">0</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-secondary" style="height:100%;width:100%;" value=".">.</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-danger btn-sm" style="height:100%;width:100%;" value="all-clear">AC</button>
+                                    </div>
+                                    <div class="col-3 border rounded">
+                                        <button type="button" class="btn btn-primary waves-effect" style="height:100%;width:100%;" value="=">=</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
