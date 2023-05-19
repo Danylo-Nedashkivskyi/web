@@ -1,5 +1,5 @@
-## КВ-03 Недашківський Данило ЛАБ1
+## КВ-03 Недашківський Данило ЛАБ2
 
-Завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру.
+Завдання: розробити функціональність для статичних сторінок Web-додатку першої лабораторної роботи із використанням шаблону MVC.
 
-https://docs.google.com/document/d/1VdWdP1WH8JedNmVotnspuPExVzxHOUHl0Z1mJzbIA1s/edit?usp=sharing
+https://docs.google.com/document/d/1rn-D2P99whFN7RNxfB22UPetXzbIZ927ysk2lHmnjFk/edit?usp=sharing
